@@ -1,0 +1,26 @@
+========================================
+Import SSH Key Pair to AWS Console
+========================================
+
+1. Open AWS Console in your browser:
+   https://ap-southeast-1.console.aws.amazon.com/ec2/home?region=ap-southeast-1#KeyPairs:
+
+2. Click the orange "Actions" dropdown button → "Import key pair"
+
+3. Fill in the form:
+   - Name: keypair-cheeyoung
+   - Key pair file: Click "Browse" and select:
+     /Users/cheeyoungchang/Projects/cloud-capstone/project7/terraform-aws/keypair-cheeyoung.pub
+
+   OR paste the public key content directly:
+
+4. Click "Import key pair"
+
+5. You should see "keypair-cheeyoung" in the key pairs list
+
+6. Return to terminal and confirm ready to proceed!
+
+========================================
+Public Key Content (if needed):
+========================================
+(Located in: keypair-cheeyoung.pub)
